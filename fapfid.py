@@ -9,9 +9,9 @@ from fairlearn.metrics import equalized_odds_difference, equalized_odds_ratio
 
 def FAPFID_algorithm(data, protected_feature, privileged_group, unprivileged_group, base_classifier, num_clusters):
     """
-    Implements the FAPFID approach, balancing imbalanced clusters (rp ≠ 1) using SMOTE.
+    FAPFID approace.
     
-    Parameters:
+    Parameters needed:
     - data: Input pandas DataFrame containing features and target.
     - protected_feature: Name of the protected feature (e.g., 'gender').
     - privileged_group: Value indicating the privileged group (e.g., 'male').
