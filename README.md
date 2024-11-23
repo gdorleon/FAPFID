@@ -38,7 +38,7 @@ The FAPFID algorithm follows these steps:
 Before running the code, ensure you have the following Python libraries installed:
 
 ```bash
-pip install numpy pandas scikit-learn imbalanced-learn
+pip install requirement.txt
 ````
 ## Usage
 
