@@ -9,7 +9,7 @@ This repository contains an implementation of the **FAPFID algorithm**, a fairne
 The FAPFID algorithm follows these steps:
 
 1. **Clustering**:
-   - The dataset is divided into `K` clusters using a clustering algorithm (e.g., KMeans).
+   - The dataset is divided into `K` clusters using a KMeans.
 
 2. **Balanced Clusters**:
    - Each cluster is checked for imbalance based on the ratio of privileged to unprivileged instances (`rp`).
