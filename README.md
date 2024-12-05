@@ -1,4 +1,4 @@
-# FAPFID: A Fairness-Aware Approach for Clustering and Ensemble Learning
+# FAPFID: A Fairness-Aware Approach for Protected Features and Imbalanced Data
 
 This repository contains the  implementation of the **FAPFID algorithm**, a fairness-aware method that balances clusters based on demographic parity and trains an ensemble model for classification tasks. The approach ensures fairness by identifying and oversampling imbalanced clusters while maintaining group fairness metrics.
 
