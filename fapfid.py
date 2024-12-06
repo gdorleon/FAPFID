@@ -35,7 +35,7 @@ def FAPFID_algorithm(data, protected_feature, privileged_group, unprivileged_gro
     smote = SMOTE(random_state=42)
 
     for cluster_id in range(num_clusters):
-        # Extract the current cluster, `cluster_data` contains all the rows from the original DataFrame `data` that belong to the cluster specified by `cluster_id`.
+        # Extract the current cluster => contains all the rows from the original DataFrame data that belong to cluster_id.
         cluster_data = data[data['cluster'] == cluster_id]
         privileged = cluster_data[cluster_data[protected_feature] == privileged_group]
         unprivileged = cluster_data[cluster_data[protected_feature] == unprivileged_group]
